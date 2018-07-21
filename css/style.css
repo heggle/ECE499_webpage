@@ -150,7 +150,7 @@ ul.dropdown-menu {
 /*-- //top-nav --*/
 
 /*-- //header --*/
-/*-- banner --*/
+/*-- banner TODO -> change background image to what you would like (replace b2.jpg)--*/
 li#callbacks1_s0 {
     background: url(../images/b2.jpg) no-repeat 0px 0px;
     background-size: cover;
