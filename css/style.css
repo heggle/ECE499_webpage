@@ -107,7 +107,7 @@ a:focus, a:hover {
     color: #fff;
     font-size: 14px;
     padding: 8px 20px;
-	border: 2px solid #fff;
+		border: 2px solid #fff;
     position: relative;
     letter-spacing: 2px;
 }
@@ -152,9 +152,9 @@ ul.dropdown-menu {
 /*-- //header --*/
 /*-- banner TODO -> change background image to what you would like (replace b2.jpg)--*/
 li#callbacks1_s0 {
-    background: url(../images/b2.jpg) no-repeat 0px 0px;
+    background: url(../images/b4.jpg) no-repeat 0px 0px;
     background-size: cover;
-	min-height: 770px;
+		min-height: 770px;
 }
 .banner1 {
     background: url(../images/b2.jpg) no-repeat 0px 0px;
@@ -164,7 +164,7 @@ li#callbacks1_s0 {
     -o-background-size: cover;
     -ms-background-size: cover;
     position: relative;
-	min-height:300px;
+		min-height:300px;
 }
 .wthree-different-dot {
     background: url(../images/dott.png)repeat 0px 0px;
@@ -173,17 +173,9 @@ li#callbacks1_s0 {
     -moz-background-size: 2px;
     -o-background-size: 2px;
     -ms-background-size: 2px;
-	min-height: 770px;
+		min-height: 770px;
 }
-.wthree-different-dot1 {
-	padding: 5em 0;
-    background: url(../images/dott.png)repeat 0px 0px;
-    background-size: 2px;
-    -webkit-background-size: 2px;
-    -moz-background-size: 2px;
-    -o-background-size: 2px;
-    -ms-background-size: 2px;
-}
+
 .banner_text{
     text-align: center;
     padding: 18em 0 0em;
@@ -191,7 +183,7 @@ li#callbacks1_s0 {
 .banner1 h2 {
     text-align: center;
     padding-top: 4em;
-    font-size: 50px;
+    font-size: 20px;
     color: #fff;
     text-transform: capitalize;
     font-weight: 600;
@@ -247,71 +239,7 @@ li#callbacks1_s0 {
 .events {
   list-style: none;
 }
-.callbacks_container {
-  position: relative;
-  float: left;
-  width: 100%;
-}
-.callbacks {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-.callbacks li {
-  position: absolute;
-  width: 100%;
-}
-.callbacks img {
-  position: relative;
-  z-index: 1;
-  height: auto;
-  border: 0;
-}
-.callbacks .caption {
-	display: block;
-	position: absolute;
-	z-index: 2;
-	font-size: 20px;
-	text-shadow: none;
-	color: #fff;
-	left: 0;
-	right: 0;
-	padding: 10px 20px;
-	margin: 0;
-	max-width: none;
-	top: 10%;
-	text-align: center;
-}
-.callbacks_nav {
-	position: absolute;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    bottom: 50%;
-    left: 20%;
-    z-index: 3;
-    text-indent: -9999px;
-    overflow: hidden;
-    text-decoration: none;
-    width: 25px;
-    height: 30px;
-    background: transparent url(../images/arrows.png) no-repeat left top;
-}
- .callbacks_nav:hover{
-  	opacity: 0.3;
-  }
-.callbacks_nav.next {
-    background-position: right bottom;
-    left: 80%;
-    top: 45%;
- }
- .callbacks_nav.prev {
-	right: auto;
-	background-position:left bottom;
-	left:18%;
-    top: 45%;
-}
+
 #slider3-pager a {
   display: inline-block;
 }
@@ -474,59 +402,7 @@ li#callbacks1_s0 {
 
 /* //Bounce To About */
 
-/*-- stats --*/
-.stats {
-    background: url(../images/b3.jpg) no-repeat fixed;
-    background-size: cover;
-}
 
-.stats h3.heading{
-	color:#fff;
-}
-.travel span.glyphicon.glyphicon-play-circle {
-    margin-bottom: 0;
-}
-p.counter{
-	font-size: 3em;
-    color: #eee;
-    font-weight: bold;
-}
-.agileinfo_stats_grid h3{
-    font-size: 18px;
-    color: #fff;
-    letter-spacing: 1px;
-}
-.w3_agileits_head1{
-	color:#212121 !important;
-}
-.agileinfo_stats_grid {
-    border: 2px solid #fff;
-    border-radius: 50%;
-    width: 170px;
-    height: 170px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 2.5em 0;
-}
-.agileinfo_stats.mid-w3l-stat {
-	position: relative;
-}
-.agileinfo_stats.mid-w3l-stat:after, .agileinfo_stats.mid-w3l-stat:after {
-    content: '';
-    background: #fff;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    position: absolute;
-    top: 40%;
-    left: -3%;
-}
-p.w3l-par-st {
-    margin-top: 3em;
-    color: #fff;
-    text-align: left;
-}
-/*-- //stats --*/
 
 /* tabs */
 .tab1 img {
@@ -1357,7 +1233,6 @@ p.para-agileits-w3layouts {
 
 
 /* //about */
-
 /*-- our classes --*/
 .popular_classes{
 	padding: 5em 0;
@@ -1383,6 +1258,11 @@ p.para-agileits-w3layouts {
     padding-bottom: 1em;
 }
 /*-- //our classes --*/
+
+.theexercises{
+	padding: 5em 0;
+}
+
 
 /*-- clients --*/
 .clients-main{
@@ -1798,6 +1678,7 @@ p.para-w3-agile {
 	.banner_text h3, .banner_text h2 {
 		font-size: 4.5em;
 		letter-spacing: 4px;
+		padding-top: 12px;
 	}
 	.header {
 		padding: 2em 0 4em;
@@ -1898,6 +1779,7 @@ p.para-w3-agile {
 		font-size: 14px;
 	}
 }
+
 @media screen and (max-width: 1024px){
 	.banner_text h3, .banner_text h2 {
 		font-size: 4em;
@@ -2068,7 +1950,7 @@ p.para-w3-agile {
 }
 @media screen and (max-width: 767px){
 	.header-mdl.agileits-logo {
-		text-align: left;
+		text-align: center;
 		float: left;
 	}
 	.navbar-toggle {
