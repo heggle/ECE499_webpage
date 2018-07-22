@@ -2117,7 +2117,7 @@ p.para-w3-agile {
 
 @media screen and (max-width: 600px){
 	.agileits-logo h1 {
-		font-size: 2.5em;
+		font-size: 1.8em;
 	}
 	li#callbacks1_s0, li#callbacks1_s1 ,li#callbacks1_s2 ,li#callbacks1_s3, .wthree-different-dot {
 		min-height: 480px;
